@@ -3,7 +3,8 @@
   <h2>{{ hero.name }} details</h2>
   <div>
     <p><label>ID: </label>{{ hero.id}}</p>
-    <p><label>Name: </label>{{ hero.name}}</p>
+    <label>Name:</label>
+    <input [(ngModel)]="hero.name" placeholder="name">
   </div>
 </div>
 
